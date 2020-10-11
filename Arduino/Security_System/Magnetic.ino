@@ -10,7 +10,7 @@ int Magnetic_value() {  //열면 0, 붙으면 1
   return digitalRead(Magnetic_PIN);
 }
 
-void Magnetic_check() { //@@두번으로 줄이라고 하셔서 줄임
+void Magnetic_check() { //@@두번으로 줄임
   count1++;
   open_count1 += Magnetic_value();
 
